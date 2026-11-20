@@ -195,9 +195,11 @@ main {
 .cursor {
   display: inline-block;
   width: 0.6em;
-  height: 1.1em;
+  /* match the uppercase tagline: cap height, resting on the baseline */
+  height: 0.73em;
+  height: 1cap;
   margin-left: 0.25em;
-  vertical-align: text-bottom;
+  vertical-align: baseline;
   background: var(--red);
   box-shadow: 0 0 8px var(--red);
   animation: blink 1.1s steps(1) infinite;
